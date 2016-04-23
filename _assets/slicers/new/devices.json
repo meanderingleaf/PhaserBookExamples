@@ -1,0 +1,36 @@
+{"frames": {
+
+"boy.png":
+{
+	"frame": {"x":2,"y":2,"w":171,"h":260},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":171,"h":260},
+	"sourceSize": {"w":171,"h":260}
+},
+"floppy.png":
+{
+	"frame": {"x":2,"y":264,"w":159,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":167},
+	"sourceSize": {"w":159,"h":167}
+},
+"walkmank.png":
+{
+	"frame": {"x":2,"y":433,"w":165,"h":260},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":260},
+	"sourceSize": {"w":165,"h":260}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "devices.png",
+	"format": "RGBA8888",
+	"size": {"w":175,"h":695},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b74cefabec3f1dc9b166a9b791e9ce37:de4b145d0a6e0176066a04e68385d9e1:04fe5a9e123f61ba7d22bc155f53c384$"
+}
+}

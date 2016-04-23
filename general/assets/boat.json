@@ -1,0 +1,12 @@
+{ 
+	
+	"boat": [
+		
+			{
+				"density": 2, "friction": 0, "bounce": 0, 
+				"filter": { "categoryBits": 1, "maskBits": 65535 },
+				"shape": [   29, 18  ,  35, 42  ,  29, 72  ,  10, 72  ,  4, 42  ,  10, 18  ,  19, 4  ]
+			}  
+	]
+	
+}

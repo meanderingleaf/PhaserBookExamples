@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<script src="js/phaser.min.js"></script>
+		<script>
+
+			var game = new Phaser.Game(
+				800, 600, Phaser.CANVAS, null,
+				{ preload: preload, create: create, update: update }
+			);
+
+			var sortGroup;
+	
+			function preload() {
+				//load in assets needed
+				game.load.spritesheet('particle', 'assets/hexagon_particle.png');
+
+			}
+
+			function create() {
+				game.physics.startSystem(Phaser.Physics.ARCADE);
+
+				sortGroup = game.add.group();
+				sortGroup.enableBody = true;
+
+				for(var i = 0; i < 200; i++) {
+					var sprite = sortGroup.create(Math.random() * game.width, Math.random() * game.height, "particle");
+
+					sprite.body.velocity.x = Phaser.Utils.randomChoice(-20, 20);
+					sprite.body.velocity.y = Phaser.Utils.randomChoice(-20, 20);
+				}
+			}
+
+			function update() {
+				sortGroup.sort('y', Phaser.Group.SORT_ASCENDING);
+			}
+
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

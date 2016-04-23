@@ -1,0 +1,19 @@
+{
+  "name": "_template",
+  "version": "0.0.0",
+  "authors": [
+    "Travis <travis.faas@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "~2.2.2",
+    "easystarjs": "~0.2.1"
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="30" height="30" tilewidth="75" tileheight="38">
+ <tileset firstgid="1" name="roadTiles" tilewidth="75" tileheight="49">
+  <image source="HTML5 Games Book/examples/_assets/defense/roadTiles_nova/roadTiles.png" width="1024" height="768"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEBzFo3gUj+JRTDYWwIJZBsgt/EhsVjq6hR8Lm3+E2ItPbLjYy8SAmcaZ6WDvKB7Fo3gUj2LaYwAG8jti
+  </data>
+ </layer>
+</map>

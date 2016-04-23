@@ -1,0 +1,9 @@
+{
+
+  "objects": [
+    { "x": 100, "y": 500, "key": "ground" },
+    { "x": -100, "y": 400, "key": "ground" },
+    { "x": 300, "y": 400, "key": "rockyGround" }
+  ]
+
+}

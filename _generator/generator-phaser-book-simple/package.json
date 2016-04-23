@@ -1,0 +1,11 @@
+{
+  "name": "generator-phaser-book-simple",
+  "version": "0.1.1",
+  "description": "",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.17.7"
+  }
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="10" tilewidth="100" tileheight="100" nextobjectid="46">
+ <tileset firstgid="1" name="Tiles" tilewidth="100" tileheight="100">
+  <image source="../images/Tiles.png" width="600" height="400"/>
+ </tileset>
+ <tileset firstgid="25" name="MouseSprite" tilewidth="160" tileheight="160">
+  <image source="../images/sprites/MouseSprite.png" width="660" height="640"/>
+ </tileset>
+ <tileset firstgid="41" name="coin" tilewidth="60" tileheight="60">
+  <image source="../images/coin.png" width="60" height="62"/>
+ </tileset>
+ <tileset firstgid="42" name="gamebg" tilewidth="100" tileheight="100">
+  <image source="../images/sprites/Background.png" width="2001" height="1001"/>
+ </tileset>
+ <tileset firstgid="242" name="sign" tilewidth="170" tileheight="160">
+  <image source="../images/sign.png" width="206" height="177"/>
+ </tileset>
+ <tileset firstgid="243" name="player" tilewidth="1051" tileheight="840">
+  <tile id="0">
+   <image width="1051" height="840" source="../images/sprites/FoxSprite.png"/>
+  </tile>
+ </tileset>
+ <layer name="bg" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyVzNVSFlAAhdH/ebCwO7G7sFvswm7F7sDEQsXGwO5uxS4UW7HAfAPXI5zzzay7PTspkUiUojRlKEs5kilPBSpSicpUoSrVqE4NalKL2iQF/MVUh7rUoz4NSKEhjWhME5rSjOa0oCWtaE0b2tIu8C+m9nSgI6l0ojNd6Eo3utODnvSiN33oSz/6k8aAwL+YBjKIwQxhKMMYzghGMop0RjOGsYxjPBOYyCQmB/7FNIWpTGM6M5hJBrOYzRzmMo/5LGAhi1jMEpayLPAvpuWsYCWZrGI1a1jLOtaTxQY2sonNbCGbrWxje+Amphx2sJNd7GYPe9lHLvs5wEEOkcdhjnCUYxznROAmppOc4jRnOMs5znOBi1ziMle4yjWuc4Ob3OI2dwI3Md0ln3vc5wEPecRjnvCUZzznBQW85BWFvOYNbwM3Mb3jPR/4yCc+U8QXvvKN7/ygmBJ+8ovf/OEv/wI3Mf0HxdWgTA==
+  </data>
+ </layer>
+ <layer name="Level" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztkdEKgCAMRSWNzIxKiv7/T5swYQyXGvQSXTg4ptdtqtR31AEaMCxu8bZ4WmWBEXC4RiZWX+rdZjxPRe+P9JjfgQNYCWdF79ybPE//g86amzdgnU2oz3sv1ZFmkpRqLcjM9r2Qb1XNTDqDwTVgHwPb90L+Dfj70pjm7sidL91VE7viD/wq6QI64wXN
+  </data>
+ </layer>
+ <objectgroup name="Enemies">
+  <object id="2" name="Enemy" gid="25" x="665.455" y="373.939" width="160" height="160"/>
+  <object id="5" gid="25" x="1183.64" y="183.03" width="160" height="160"/>
+  <object id="7" gid="25" x="1447.27" y="183.03" width="160" height="160"/>
+  <object id="8" gid="25" x="1971.52" y="301.212" width="160" height="160"/>
+  <object id="11" gid="25" x="2077.58" y="670.909" width="160" height="160"/>
+  <object id="12" gid="25" x="2468.48" y="667.879" width="160" height="160"/>
+  <object id="13" gid="25" x="2783.64" y="670.909" width="160" height="160"/>
+  <object id="14" gid="25" x="3223.03" y="364.848" width="160" height="160"/>
+  <object id="15" gid="25" x="3344.24" y="370.909" width="160" height="160"/>
+ </objectgroup>
+ <objectgroup name="Collectables">
+  <object id="17" gid="41" x="191.212" y="626.97" width="60" height="60"/>
+  <object id="18" gid="41" x="294.242" y="557.273" width="60" height="60"/>
+  <object id="19" gid="41" x="403.333" y="463.333" width="60" height="60"/>
+  <object id="20" gid="41" x="557.879" y="333.03" width="60" height="60"/>
+  <object id="21" gid="41" x="885.152" y="330" width="60" height="60"/>
+  <object id="22" gid="41" x="1218.48" y="654.242" width="60" height="60"/>
+  <object id="23" gid="41" x="1163.94" y="136.061" width="60" height="60"/>
+  <object id="24" gid="41" x="1285.15" y="126.97" width="60" height="60"/>
+  <object id="25" gid="41" x="1403.33" y="148.182" width="60" height="60"/>
+  <object id="26" gid="41" x="1551.82" y="148.182" width="60" height="60"/>
+  <object id="27" gid="41" x="1857.88" y="248.182" width="60" height="60"/>
+  <object id="28" gid="41" x="1924.55" y="105.758" width="60" height="60"/>
+  <object id="29" gid="41" x="2112.42" y="236.061" width="60" height="60"/>
+  <object id="30" gid="41" x="2209.39" y="96.6667" width="60" height="60"/>
+  <object id="31" gid="41" x="1706.36" y="648.182" width="60" height="60"/>
+  <object id="32" gid="41" x="1918.48" y="642.121" width="60" height="60"/>
+  <object id="33" gid="41" x="2333.64" y="636.061" width="60" height="60"/>
+  <object id="34" gid="41" x="2463.94" y="417.879" width="60" height="60"/>
+  <object id="35" gid="41" x="2660.91" y="136.061" width="60" height="60"/>
+  <object id="36" gid="41" x="2894.24" y="126.97" width="60" height="60"/>
+  <object id="37" gid="41" x="2779.09" y="-39.697" width="60" height="60"/>
+  <object id="38" gid="41" x="3188.18" y="366.364" width="60" height="60"/>
+  <object id="39" gid="41" x="3582.12" y="333.03" width="60" height="60"/>
+  <object id="40" gid="41" x="3385.15" y="342.121" width="60" height="60"/>
+  <object id="41" gid="41" x="3748.79" y="478.485" width="60" height="60"/>
+  <object id="42" gid="41" x="3745.76" y="620.909" width="60" height="60"/>
+ </objectgroup>
+ <objectgroup name="Doors">
+  <object id="44" gid="242" x="3808.94" y="701.212" width="170" height="160"/>
+ </objectgroup>
+ <objectgroup name="Player">
+  <object id="45" gid="243" x="35" y="673" width="305" height="256"/>
+ </objectgroup>
+</map>

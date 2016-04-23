@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script src="js/phaser.min.js"></script>
+		<script>
+
+			var game = new Phaser.Game(
+				800, 600, Phaser.CANVAS, null,
+				{ preload: preload, create: create, update: update }
+			);
+
+			var player, ground, cursors;
+
+			function preload() {
+				//load in assets needed
+				game.load.image('ground', 'assets/ground.png');
+			}
+
+			function create() {
+
+        this.countdownStarted = new Phaser.Signal();
+        this.countdownStarted.addOnce(this.swapBackground, this);
+
+			},
+
+
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

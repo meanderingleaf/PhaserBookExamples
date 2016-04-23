@@ -1,0 +1,20 @@
+{
+  "resources": [
+    "sfx.ogg",
+    "sfx.m4a",
+    "sfx.mp3",
+    "sfx.ac3"
+  ],
+  "spritemap": {
+    "hit": {
+      "start": 0,
+      "end": 0.14662131519274377,
+      "loop": false
+    },
+    "coin": {
+      "start": 2,
+      "end": 2.417845804988662,
+      "loop": false
+    }
+  }
+}

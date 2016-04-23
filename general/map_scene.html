@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<script src="js/phaser.min.js"></script>
+		<script>
+
+			var game = new Phaser.Game(
+				800, 600, Phaser.CANVAS, null,
+				{ preload: preload, create: create, update: update }
+			);
+
+			var player, ground, cursors;
+
+			function preload() {
+				//load in assets needed
+				game.load.spritesheet('player', 'assets/player.png', 32, 64);
+				game.load.image('ground', 'assets/ground.png');
+			}
+
+			function create() {
+
+				//setup game
+				game.physics.startSystem(Phaser.Physics.ARCADE);
+
+				game.physics.arcade.gravity.y = 250;
+
+				player = game.add.sprite(200, 100, "player");
+				player.anchor.setTo(.5,1);
+				game.physics.enable(player, Phaser.Physics.ARCADE);
+				player.body.drag.x = 1000;
+
+				ground = game.add.group();
+				ground.enableBody = true;
+				ground.create( 100, 500, "ground");
+				ground.setAll("body.immovable", true);
+				ground.setAll("body.allowGravity", false);
+
+
+				//controls
+				cursors = game.input.keyboard.createCursorKeys();
+			}
+
+			function update() {
+				//run game loop code
+
+				if(cursors.left.isDown) {
+					player.body.velocity.x = -200;
+					player.scale.x = 1;
+				}
+
+				if(cursors.right.isDown) {
+					player.body.velocity.x = 200;
+					player.scale.x = -1;
+				}
+
+				game.physics.arcade.collide(player, ground);
+			}
+
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

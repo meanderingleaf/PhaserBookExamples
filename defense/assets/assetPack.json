@@ -1,0 +1,93 @@
+{ 
+    "level1": [
+        {
+            "type": "image",
+            "key": "beach",
+            "url": "assets/images/tiles/beach.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "dirt",
+            "url": "assets/images/tiles/dirt.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "arrow",
+            "url": "assets/images/sprites/arrow.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "gamebg",
+            "url": "assets/images/defenseBG.jpg",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "moneyholder",
+            "url": "assets/images/moneyholder.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "healthholder",
+            "url": "assets/images/healthHolder.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "title",
+            "url": "assets/images/title.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "btnAgain",
+            "url": "assets/images/btnAgain.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "btnBegin",
+            "url": "assets/images/btnBegin.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "gameoverText",
+            "url": "assets/images/gameoverText.png",
+            "overwrite": false
+        },
+        {
+            "type": "spritesheet",
+            "key": "human",
+            "url": "assets/images/sprites/Human/human_regular_hair.png",
+            "frameWidth": 60,
+            "frameHeight": 60
+        },
+        {
+            "type": "spritesheet",
+            "key": "skeleton",
+            "url": "assets/images/sprites/Skeleton/skeleton.png",
+            "frameWidth": 60,
+            "frameHeight": 60
+        },
+        {
+            "type": "spritesheet",
+            "key": "pig",
+            "url": "assets/images/sprites/Pig/pig.png",
+            "frameWidth": 60,
+            "frameHeight": 60
+        },
+        {
+            "type": "json",
+            "key": "mapdata",
+            "url": "assets/isotiles.json"
+        }
+    ],
+    "meta": {
+        "version": "1.0"
+    }
+}
