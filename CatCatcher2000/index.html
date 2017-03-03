@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Cat Catcher2000</title>
@@ -62,15 +63,15 @@
 			}
 
 			function catHitHandler(catcherObject, catObject) {
-				cat.x =  Math.random() * game.width;
-				cat.y =  Math.random() * game.height;
+				catObject.x =  Math.random() * game.width;
+				catObject.y =  Math.random() * game.height;
 
 				score ++;
 				txtScore.setText( score.toString()  );
 			}
 
 		</script>
-	<head>
+	</head>
 	<body>
 
 	</body>
